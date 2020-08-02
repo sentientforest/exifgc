@@ -1,0 +1,26 @@
+{
+  "name": "exifgc",
+  "version": "1.0.0",
+  "description": "Command line tool to check if images in a given directory are assigned GPS coordinates in their Exif metadata. ",
+  "bin": {
+    "exifgc": "./exifgc-cli.js"
+  },
+  "scripts": {
+    "test": "node exifgc.test.js"
+  },
+  "keywords": [
+    "exif",
+    "cli",
+    "gps"
+  ],
+  "author": "Michael Graham <michael@forested.earth>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentientforest/exifgc.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "exifr": "^5.0.3",
+    "minimist": "^1.2.5"
+  }
+}
